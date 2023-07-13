@@ -1,0 +1,24 @@
+{
+    "name": "aiviaio/bybit",
+    "type": "library",
+    "description": "Bybit API Like the official document interface, Support for arbitrary extension.",
+    "license": "MIT",
+    "keywords": ["bybit"],
+    "authors": [
+        {
+            "name": "AIVIA",
+            "email": "info@aivia.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lin\\Bybit\\": "./src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "*",
+        "workerman/workerman": "*",
+        "workerman/globaldata": "*"
+    }
+}
